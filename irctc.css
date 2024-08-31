@@ -1,0 +1,225 @@
+:root {
+   --darkblue: darkblue;
+   --orange: orangered;
+   --btnborder: #33333322;
+   --green: #01BB0A;
+   --white: white;
+   --black: black;
+
+}
+
+html {
+    width: 100%;
+    
+}
+
+body {
+    box-sizing: border-box;
+    position: relative;
+    font-family: "Inter", sans-serif;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    z-index: 10;
+}
+.left-nav{
+    display: flex;
+    align-items: center;
+}
+.left-nav img{
+    padding: 10px;
+    
+}
+.right-nav{
+   display: flex;
+   justify-content: flex-end;
+   margin-left: auto;
+   align-items: center;
+   
+}
+.button-group{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.button-group li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+}
+.text-link{
+    margin-bottom: 5px;
+    text-decoration: none;
+    
+}
+
+.nav-btn{
+    list-style: none;
+    display: flex;
+    margin: 0 60px;
+    padding: 10px 20px ;
+}
+
+
+.nav-btn1{
+    border: 1px solid var(--btnborder);
+    border-radius: 5px;
+    margin: 0 10px;
+    padding: 10px 25px;
+    background-color: var(--white);
+}
+.login {
+    background-color: var(--orange);
+    color: var(--white);
+}
+h2{
+    font-weight: 500;
+}
+.green{
+    color: var(--green);
+}
+.orange{
+    color: var(--orange);
+}
+.blue{
+    color: var(--darkblue);
+}
+.menu2-btn a{
+    border:1px solid var(--btnborder) ;
+    color: var(--black);
+    border-radius: 7px;
+    padding: 18px;
+    margin: 15px ;
+    font-size: 18px;
+    
+
+}
+.menu2-btn{
+    margin: 70px 0;
+    font-weight: 700;
+}
+.menu2-btn img{
+    margin-right: 12px;
+    margin-top: 25px;
+}
+a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.menu2-btn a:first-child{
+    background-color: var(--darkblue);
+    color: var(--white);
+}
+.btnimg{
+    height: 20px;
+    width: 25px;
+}
+
+.destination{
+    display: flex;
+    border: 1px solid var(--btnborder);
+    width: 686px;
+    border-radius: 10px;
+}
+
+.destination img{
+    height: 50px;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+.arrow{
+    margin: 30px 70px;
+}
+.date{
+    display: flex;
+    border: 1px solid var(--btnborder);
+    width: 686px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.calendar, .square{
+    height: 50px;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+.circle{
+    height: 50px;
+    padding-left: 30px;
+    margin-top: 10px;
+    margin-right: 12px;
+}
+.going-date{
+    margin-right: 30px;
+}
+.square{
+    margin-left: 50px;
+}
+.search-btn{
+    width: 686px;
+    height: 81px;
+    background-color: var(--green);
+    color: var(--white);
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 40px;
+    border-radius: 10px;
+    font-weight: 900;
+    border: none;
+}
+.search-arrow{
+    height: 20px;
+    width: 20px;
+}
+.image{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 1100px;
+    width: 350px;
+    height: 500px;
+}
+#img-last{
+    width: 463px;
+    height: 740px;
+}
+.from p:nth-child(2){
+    font-weight: 700;
+    font-size: 25px;
+}
+.to p:nth-child(2){
+    font-weight: 700;
+    font-size: 25px;
+}
+.going-date p:nth-child(2){
+    font-weight: 700;
+    font-size: 25px ;
+}
+.tier p:nth-child(2){
+    font-weight: 700;
+    font-size: 25px;
+}
+.seat-type p:nth-child(2){
+    font-weight: 700;
+    font-size: 25px;
+}
+.Ind-rw{
+    margin-bottom: 70px;
+}
+header{
+    margin-bottom: 60px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-right: 0px;
+    width: 880px;
+}

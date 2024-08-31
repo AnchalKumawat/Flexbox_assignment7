@@ -1,0 +1,94 @@
+:root {
+    --white: #ffffff;
+    --blue: #202842;
+    
+
+}
+
+body {
+    font-family: nunito, sans-serif;
+}
+
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    
+}
+
+
+
+.free-plan, .basic-plan, .pro-plan {
+    width: 262px;
+    height: 363px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px 2px gray;
+    padding: 15px;
+    margin: 10px;
+}
+
+h1{
+    padding: 15px;
+    margin: 10px;
+}
+
+ul li {
+    list-style: none;
+}
+
+.free-plan, .pro-plan {
+    background-color: var(--white);
+    color: var(--blue);
+}
+
+.basic-plan {
+    background-color: var(--blue) ;
+    color: var(--white);
+}
+
+img {
+    height: 18px;
+    width: 18px;
+    padding-right: 15px;
+}
+
+.plan-name {
+    font-weight: 700;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 32px;
+}
+
+.price {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+}
+
+button {
+width:156px;
+height: 38px;
+padding: 8px 24px 8px 24px;
+gap: 10px;
+border-radius: 50px;
+margin: 15px 45px;
+border: 1px solid transparent;
+font-family: nunito, sans-serif;
+font-weight: 600;
+font-size: 16px;
+
+}
+
+p {
+    margin-top: 0;
+    margin-left: 25px;
+}
+
+.blue-btn{
+    background-color: var(--blue);
+    color: var(--white);
+}
